@@ -14,7 +14,7 @@ int main() {
     int arrSize = sizeof(myNumbers)/sizeof(myNumbers[0]);
     int loopNumberFirst;
     int loopNumberSecond;
-    int totalNumber;
+    float totalNumber;
     int calculateNumber;
     float average_number;
 
