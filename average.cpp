@@ -16,7 +16,7 @@ int main() {
     int loopNumberSecond;
     float totalNumber;
     int calculateNumber;
-    float average_number;
+    float averageNumber;
 
     // process
     for (loopNumberFirst = 0; loopNumberFirst < 10; loopNumberFirst++) {
@@ -39,10 +39,10 @@ int main() {
         << myNumbers[loopNumberSecond] << std::endl;
     }
 
-    average_number = totalNumber / arrSize;
+    averageNumber = totalNumber / arrSize;
 
     std::cout << "" << std::endl;
-    std::cout << "Answer: " << average_number << std::endl;
+    std::cout << "Answer: " << averageNumber << std::endl;
 
     std::cout << "\nDone" << std::endl;
 }
