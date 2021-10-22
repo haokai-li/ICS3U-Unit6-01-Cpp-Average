@@ -9,7 +9,7 @@
 
 int main() {
     // This Program calculate average
-    int myNumbers[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+    int myNumbers[10];
 
     int arrSize = sizeof(myNumbers)/sizeof(myNumbers[0]);
     int loopNumberFirst;
